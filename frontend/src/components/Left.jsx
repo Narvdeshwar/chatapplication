@@ -75,10 +75,10 @@ function Left() {
 
       {/* User list */}
       <div className="flex flex-col overflow-y-auto h-full">
-        {user.map((item) => (
+        {user.map((item) => ( 
           <div
             key={item.id}
-            className="flex items-center p-2 border-b-[1px] shadow-md"
+            className="flex items-center p-2 border-b-[1px]"
           >
             <img
               src={item.image}
